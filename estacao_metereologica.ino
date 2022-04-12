@@ -56,7 +56,7 @@ lcd.setCursor(2,0);
 lcd.print("Integrantes:");
 lcd.setCursor(0,1);
 int i=16;
-while (i>=0){
+while (i>=0){ //Substituindo função roll manualmente, configurado a partir do tamanho do display utilizado
   lcd.setCursor(i,1);
   lcd.print("Bruna-Kevin-Lucas");
   delay(500);
